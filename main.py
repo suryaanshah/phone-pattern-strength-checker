@@ -11,9 +11,16 @@ If pattern[] in common-patterns[]
 else 
     return 0
 """
+import pygame
+import sys
+
+pygame.init()
+
+screen=pygame.display.set_module((300,300))
 
 
+dots=[]
 def grid():
-    for row in range(3):
-        print('* * *')
+    for dot in dots:
+        pygame.draw.ellipse(screen, WHITE, dot)
 grid()
