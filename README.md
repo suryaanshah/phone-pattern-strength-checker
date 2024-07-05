@@ -6,3 +6,6 @@ Is your phone's security pattern really secure? This program checks it by compar
 2. It matches it with commonly known patterns to check the strength of it.
 3. Currently it gives binary response i.e. if your pattern is weak (0) or strong (1).
 4. If your pattern is weak then you should probably change it to something strong.
+
+# Prerequisite
++ It requires tkinter library
