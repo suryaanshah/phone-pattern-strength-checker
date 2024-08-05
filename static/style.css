@@ -1,0 +1,16 @@
+/* styles.css */
+.pattern-container {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 35px; /* Adjust margin for spacing */
+}

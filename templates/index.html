@@ -1,11 +1,10 @@
-{% extends "layout.html"  %}
+{% extends "layout.html" %}
 
 {% block body %}
-
-    
+    <div class="container">
         <h1>Pattern-Security</h1>
         <p>Is your phone security pattern secure enough?</p>
-        <p>Draw your pattern in this site and it will compare it to the 1000 most common patterns.</p>
-        <p>If it is one of them, the you should probably change it.</p>
-    
+        <p>Draw your pattern on this site and it will compare it to the 1000 most common patterns.</p>
+        <p>If it is one of them, you should probably change it.</p>
+        <div class="pattern-container" id="patternGrid"></div> </div>
 {% endblock %}
